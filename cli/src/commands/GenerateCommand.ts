@@ -233,9 +233,13 @@ export class GenerateCommand extends Command {
     const prettierConfig = await prettier.resolveConfig(process.cwd());
 
     const writeFile = async (file: string, data: string) => {
+      const conf = await prettier.format(data, {
+        parser: "babel-ts",
+        ...prettierConfig,
+      });
       await fsExtra.outputFile(
         path.join(process.cwd(), config.outputDir, file),
-        prettier.format(data, { parser: "babel-ts", ...prettierConfig })
+        conf
       );
     };
 
