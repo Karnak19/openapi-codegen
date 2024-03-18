@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.1](https://github.com/Karnak19/openapi-codegen/compare/openapi-codegen-cli-v3.0.0...openapi-codegen-cli-v3.0.1) (2024-03-18)
+
+
+### Bug Fixes
+
+* generate command await prettier ([3ee89d8](https://github.com/Karnak19/openapi-codegen/commit/3ee89d875bf2e548950d1acb5ca6465a81a0b8b1))
+* unhandled promise ([479de0e](https://github.com/Karnak19/openapi-codegen/commit/479de0ebfd1dce53b4a9d3a67596f2b2f83755c3))
+
 ## [3.0.0](https://github.com/Karnak19/openapi-codegen/compare/openapi-codegen-cli-v2.0.0...openapi-codegen-cli-v3.0.0) (2024-03-18)
 
 
